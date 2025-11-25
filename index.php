@@ -4,13 +4,10 @@ if (isset($_GET["submit"])) {
     $country = $_GET["country"];   
     $url = "https://restcountries.com/v3.1/name/$country";
 
-// گرفتن داده از API
     $response = file_get_contents($url);
 
-// تبدیل JSON به آرایه PHP
     $data = json_decode($response, true);
 
-// چاپ اطلاعات نمونه
     $info = $data[0];
 
 

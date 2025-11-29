@@ -17,4 +17,4 @@
 
 1. مخزن را کلون کنید:
 ```bash
-git clone https://github.com/arshiya-mojtahedi/php-weather-app.git
+git clone https://github.com/arshiya-mojtahedi/php-Country-information-app.git
